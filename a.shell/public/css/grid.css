@@ -1,0 +1,90 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+
+.grid-row-header {
+	width: 100%;
+	float: left;
+	padding: 0 24px;
+	color: #999;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.grid-row-header .name {
+	font-size: 12px;
+}
+.grid-row-header .icon {
+	width: 40px;
+	height: auto;
+	border: 1px solid transparent;
+}
+.grid-row-header .status {
+	width: 80px;
+	box-shadow: none;
+	height: auto;
+}
+
+.grid-row {
+	width: 100%;
+	float: left;
+	padding: 16px 24px;
+	background: var(--white);
+	margin-bottom: 0;
+	border-radius: 4px;
+	box-sizing: border-box;
+	border: 1px solid #f5f8fa;
+	transition: all 0.3s ease-in-out;
+}
+.grid-row:hover {
+	cursor: pointer;
+	font-weight: 700;
+}
+.dashboard .grid-row {
+	margin-bottom: 0;
+}
+
+.notification-section .grid-row {
+	margin-bottom: 0;
+	border-bottom: 1px solid #f5f8fa;
+}
+.notification-section .grid-row .name {
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+.grid-row h3 {
+	width: auto;
+	float: left;
+}
+.section-row .grid-row {
+	margin-left: 8px;
+	width: calc(66.66% - 16px);
+}
+.signin-container .section-row .grid-row {
+	margin-left: 0;
+	width: calc(100% - 16px);
+	border-radius: 25px;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.025);
+}
+
+.user-information .grid-row {
+	margin-left: 8px;
+	width: calc(33.33% - 16px);
+	background: transparent;
+	padding: 16px 0;
+	border: 0;
+	margin-right: 16px;
+}
+
+.user-information .grid-row .user {
+	opacity: 1;
+}
+
+.user-information .link {
+	color: var(--link);
+	text-decoration: none;
+}

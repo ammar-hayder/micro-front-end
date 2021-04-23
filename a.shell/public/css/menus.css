@@ -1,0 +1,48 @@
+.home {
+	background-image: var(--home);
+}
+.help {
+	background-image: var(--help);
+}
+.notification {
+	background-image: var(--notification);
+}
+.notification-w {
+	background-image: var(--ringing);
+}
+.menu-calendar {
+	background-image: var(--calendar);
+}
+.settings {
+	background-image: var(--settings);
+}
+.more {
+	background-image: var(--more);
+}
+.gallery {
+	background-image: var(--gallery);
+}
+/* .b-menu-notification .notification, .b-menu-settings .settings {
+	width: 20px;
+	height: 20px;
+} */
+.home,
+.help,
+.notification,
+.notification-w,
+.menu-calendar,
+.settings,
+.gallery,
+.more,.sign-out {
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+	background-size: 100%;
+}
+.chevron-right {
+	width: 24px;
+	height: 24px;
+	margin: 8px auto 0 auto;
+	background-size: 100%;
+	background-image: var(--chevron-r);
+}

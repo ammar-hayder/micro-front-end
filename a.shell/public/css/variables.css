@@ -1,0 +1,23 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --link: #4173fe;
+
+    --logo: url('../../src/assets/images/technology.png');
+    --man: url('../../src/assets/images/man.png');
+    --add: url('../../src/assets/images/menus/plus.png');
+    --abstract: url('../../src/assets/images/abstract-4.svg');
+    --chevron-r: url('../../src/assets/images/chevron.svg');
+
+    /* left menu icons */
+    --gallery: url('../../src/assets/images/menus/image-gallery.svg');
+    --notification: url('../../src/assets/images/menus/notification.svg');
+    --ringing: url('../../src/assets/images/menus/ringing.png');
+    --home: url('../../src/assets/images/menus/project.svg');
+    --help: url('../../src/assets/images/menus/headphones.svg');
+    --calendar: url('../../src/assets/images/menus/analytics.svg');
+    --settings: url('../../src/assets/images/menus/settings.svg');
+    --more: url('../../src/assets/images/menus/more.svg');
+
+    --logout: url('../../src/assets/images/menus/power-button.svg');
+}
